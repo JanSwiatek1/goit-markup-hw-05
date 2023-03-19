@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="portfolio.html" />
-    <title>Document_4</title>
+    <title>Document_5</title>
   </head>
   <body>
     <header>
@@ -34,8 +34,14 @@
           <a href="/" class="logo"><span class="blue">Web</span>Studio</a>
           <nav>
             <ul class="list_header">
-              <li><a href="/agencja" class="link">Agencja</a></li>
-              <li><a href="portfolio.html" class="link">Portfolio</a></li>
+              <li>
+                <a href="index.html" class="link_now">
+                  <span class="underline_title">Agencja</span>
+                </a>
+              </li>
+              <li>
+                <a href="portfolio.html" class="link"> Portfolio </a>
+              </li>
               <li><a href="/kontakt" class="link">Kontakt</a></li>
             </ul>
           </nav>
@@ -137,28 +143,37 @@
           <h2 class="headline_h2">Czym się zajmujemy</h2>
           <ul class="list_main_pictures">
             <li>
-              <img
-                src="images/img1.jpg"
-                alt="Osoba pisząca na klawiaturze"
-                width="369"
-                height="294"
-              />
+              <div class="box_text_picture">
+                <img
+                  src="images/img1.jpg"
+                  alt="Osoba pisząca na klawiaturze"
+                  width="369"
+                  height="294"
+                />
+                <p class="text_on_picture">APLIKACJE KOMPUTEROWE</p>
+              </div>
             </li>
             <li>
-              <img
-                src="images/img2.jpg"
-                alt="Osoba z telefonem przed laptopem"
-                width="370"
-                height="294"
-              />
+              <div class="box_text_picture">
+                <img
+                  src="images/img2.jpg"
+                  alt="Osoba z telefonem przed laptopem"
+                  width="370"
+                  height="294"
+                />
+                <p class="text_on_picture">APLIKACJIE MOBILNE</p>
+              </div>
             </li>
             <li>
-              <img
-                src="images/box3.jpg"
-                alt="Osoba z ipad'em"
-                width="370"
-                height="294"
-              />
+              <div class="box_text_picture">
+                <img
+                  src="images/box3.jpg"
+                  alt="Osoba z ipad'em"
+                  width="370"
+                  height="294"
+                />
+                <p class="text_on_picture">APLIKACJE GRAFICZNE</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -448,7 +463,7 @@
       </section>
     </footer>
 
-    <box class="backdrop is_hidden" data-modal>
+    <box class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close_btn" data-modal-close>X</button>
       </div>
